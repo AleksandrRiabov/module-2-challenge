@@ -23,13 +23,15 @@ p {
   margin: 0;
 }
 
-
+/* ======== */
 :root {
   --primary-light: #fff;
   --primary-blue: #83d6d6;
   --dark: #302626;
 }
 
+
+/* Main logo / nav */
 #header {
   display: flex;
   justify-content: space-between;
@@ -59,5 +61,56 @@ p {
 .navLink > a {
   text-decoration: none;
   color: var(--primary-blue);
+}
+
+
+/* hero banner */
+
+.heroBanner {
+  width: 100%;
+  height: 20vh;
+  background-image: url('../images/02-hero-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroSubtitle {
+  padding: 5px;
+  position: absolute;
+  right: 20%;
+  bottom: 10%;
+  background-color: var(--primary-blue);
+}
+
+/* Main content */
+
+.pageWrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.pageSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sectionTitle {
+  flex: 1;
+  border-right: 2px solid var(--dark);
+  padding: 5px 15px;
+  text-align: right;
+  font-size: 1.5rem;
+  word-break: break-word;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sectionContent {
+  flex: 5;
+  padding: 5px 15px;
 }
 
