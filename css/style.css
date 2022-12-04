@@ -183,3 +183,27 @@ a {
 .project img:hover{
   opacity: 1;
 }
+
+/*==== Contact ====== */
+
+.contactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.detail {
+  list-style: none;
+  margin-right: 20px;
+  border-bottom: 2px solid var(--primary-dark);
+  padding: 3px;
+}
+
+.detail:hover {
+  box-shadow: 0px 0, -0.3em 0 0.1em var(--primary-blue);
+}
+
+.social {
+  text-decoration: none;
+}
