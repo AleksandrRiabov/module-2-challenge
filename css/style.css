@@ -264,6 +264,31 @@ a {
 
 
 
+@media screen and (max-width: 940px) {
+  .pageWrapper {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .sectionTitle {
+    font-size: 1.3rem;
+    padding: 5px 10px;
+  }
+
+  /* Contact */
+
+  .contactInfo {
+    justify-content: flex-start;
+  }
+
+  .detail {
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+  }
+}
+
 
 @media screen and (max-width: 720px) {
   .largeLogo {
@@ -285,13 +310,6 @@ a {
     list-style: none;
     border-bottom: 1px solid var(--primary-blue);
     font-size: 0.9rem;
-  }
-
-  /* main */
-
-  .pageWrapper {
-    width: 100%;
-    padding: 5px;
   }
 
 
