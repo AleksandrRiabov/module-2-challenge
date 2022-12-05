@@ -92,6 +92,32 @@ a {
 
 /* Main content */
 
+/* ==== Greetings ==== */
+
+.greettings{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+ }
+ 
+ .greettingsContent {
+   width: 50%;
+   padding: 20px;
+   background-color: var(--primary-blue);
+   border-radius: 15px;
+   margin: 0 30px;
+ }
+ 
+ .imageContainer {
+   
+ }
+ 
+ .personalPhoto {
+   width: 100%;
+   max-width: 200px;
+   border-radius: 50%;
+ }
+
 .pageWrapper {
   width: 90vw;
   margin: 0 auto;
@@ -102,7 +128,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .sectionTitle {
@@ -185,6 +211,10 @@ a {
 }
 
 /*==== Contact ====== */
+.contact {
+  padding-bottom: 70px;
+}
+
 
 .contactInfo {
   display: flex;
@@ -207,3 +237,4 @@ a {
 .social {
   text-decoration: none;
 }
+
