@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is repo with my personal portfolio web page source code. On the page you can find some information about me, have a look at the projects I've createrd in the past and stack of thechnologies I've use. Also you can view my CV / Resume.
+This is repo with my portfolio web page source code. On the page, you can find some information about me, have a look at the projects I've created in the past and the stack of technologies I've used. Also, you can view my CV / Resume.
 
 :point_right: [Go to Portfolio](https://aleksandrriabov.github.io/module-2-challenge/) :point_left:
 
